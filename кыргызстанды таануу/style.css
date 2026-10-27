@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #f0f7f4;
+color: #26352e;
+line-height: 1.6;
+}
+
+header {
+background: #176b4d;
+color: white;
+text-align: center;
+padding: 30px 15px;
+}
+
+header h1 {
+font-size: 32px;
+}
+
+nav {
+background: #124d39;
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #f9d66b;
+}
+
+.hero {
+background: linear-gradient(135deg, #d7f0df, #b6dfcf);
+text-align: center;
+padding: 70px 20px;
+}
+
+.hero h2 {
+font-size: 32px;
+margin-bottom: 15px;
+}
+
+button {
+margin-top: 20px;
+padding: 12px 22px;
+border: none;
+border-radius: 8px;
+background: #176b4d;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #124d39;
+}
+
+.container {
+max-width: 1000px;
+margin: 30px auto;
+padding: 0 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+gap: 20px;
+}
+
+.card {
+background: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 4px 12px #00000010;
+scroll-margin-top: 20px;
+}
+
+.card h2 {
+color: #176b4d;
+margin-bottom: 12px;
+}
+
+footer {
+background: #124d39;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 25px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+}
+.hero h2 {
+    font-size: 25px;
+}
+
+}
